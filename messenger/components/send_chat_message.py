@@ -1,7 +1,7 @@
 from aiohttp import web
 from pydantic import ValidationError
 
-from src.components.schemas.SendChatMessageRequest import SendChatMessageRequest
+from messenger.components.schemas.SendChatMessageRequest import SendChatMessageRequest
 
 
 async def send_chat_message(request: web.Request):

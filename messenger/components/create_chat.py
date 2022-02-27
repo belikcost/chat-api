@@ -1,7 +1,7 @@
 from aiohttp import web
 from pydantic import ValidationError
 
-from src.components.schemas.ChatCreateRequest import ChatCreateRequest
+from messenger.components.schemas.ChatCreateRequest import ChatCreateRequest
 
 
 async def create_chat(request):

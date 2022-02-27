@@ -1,9 +1,9 @@
 from aiohttp import web
 
-from src.components.send_chat_message import send_chat_message
-from src.components.get_chat_messages import get_chat_messages
-from src.components.join_chat_user import join_chat_user
-from src.components.create_chat import create_chat
+from messenger.components.send_chat_message import send_chat_message
+from messenger.components.get_chat_messages import get_chat_messages
+from messenger.components.join_chat_user import join_chat_user
+from messenger.components.create_chat import create_chat
 
 
 def setup_routes(app, base_path="/"):

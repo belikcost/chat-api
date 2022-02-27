@@ -1,7 +1,7 @@
 from aiohttp import web
 from pydantic import ValidationError
 
-from src.components.schemas.JoinChatUserRequest import JoinChatUserRequest
+from messenger.components.schemas.JoinChatUserRequest import JoinChatUserRequest
 
 
 async def join_chat_user(request):
